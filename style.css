@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0 !important;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+nav {
+  text-align: center;
+}
+
+#nav-bar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.nav-link {
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-link a {
+  display: block;
+  color: #444;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#header-img {
+  font-size: 1.5rem;
+}
+
+.top-space {
+  padding-top: 4rem;
+}
+
+#spacing {
+  padding-bottom: 2rem;
+}
+
+.container {
+  text-align: center;
+  padding: 30px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  width: 10%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 2rem;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.price-box {
+  background: #fff;
+  color: #555;
+  list-style-type: none;
+  border: 1px solid #555;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.price-box:hover,
+.price-box.best {
+  box-shadow: 0 10px 15px 0 #000;
+}
+
+.price-box .header {
+  background-color: #111;
+  color: #fff;
+  font-size: 25px;
+}
+
+.price-box .header.header-green {
+  background-color: #444;
+}
+
+.price-box li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.price-box .emph {
+  background-color: #f4f4f4;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #000;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .col {
+    width: 100%;
+  }
+}
+
+#review {
+  padding: 2rem 0;
+}
+
+iframe {
+  padding-bottom: 2rem;
+}
+
+#footer {
+  background: #999;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
